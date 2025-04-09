@@ -18,3 +18,5 @@ Our package manager is open-source, so you don't have to worry about your comput
 Our package manager will work on any Linux distribution, and it doesn't matter whether you have Arch or Debian. Our package manager will work anyway!
 
 I hope these features have convinced you to use our package manager!
+
+(Our package manager can't update, so if u want to update - enter /usr/bin/ and type "sudo rm pix" in terminal. Sorry for that.)
