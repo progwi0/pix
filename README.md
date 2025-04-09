@@ -1,7 +1,6 @@
 ### pix
 
-Introducing our new package manager...
-# pix
+Introducing our new package manager... Pix!
 
 Features of our package manager:
 
