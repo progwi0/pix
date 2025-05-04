@@ -15,6 +15,23 @@ if [ "$1" == "install" ]; then
 	echo -e "\033[0;32m|.......|_"
 	echo "|__|.|__|"
 	echo -e "\033[0m==============================="
+elif [ "$1" == "update" ]; then
+	echo "==============================="
+	echo "Ultrasigma"
+	echo "==============================="
+	cd /usr/bin
+	sudo rm pix
+	sudo wget -q -P /usr/bin/ "raw.githubusercontent.com/progwi0/pix/main/pix"
+	sudo chmod +777 /usr/bin/pix
+	echo -e "\033[0m==============================="
+	echo -e "Pix \033[0;32mupdated."
+	echo -e "\033[0m==============================="
+	echo -e "\033[0;32m ________"
+	echo -e "\033[0;32m/\033[0;36m____\033[0;32m...|_"
+	echo -e "\033[0;36m|____|\033[0;32m..|.|"
+	echo -e "\033[0;32m|.......|_"
+	echo "|__|.|__|"
+	echo -e "\033[0m==============================="
 elif [ "$1" == "reinstall" ]; then
 	echo "==============================="
 	echo "SigmaSigma"
@@ -85,7 +102,7 @@ elif [ "$1" == "help" ]; then
 	echo -e "\033[0m==============================="
 elif [ "$1" == "version" ]; then
 	echo "==============================="
-	echo -e "\033[0;31mP\033[0;33mI\033[1;33mX \033[0;32m3\033[0;34m.\033[0;35m0"
+	echo -e "\033[0;31mP\033[0;33mI\033[1;33mX \033[0;32m4\033[0;34m.\033[0;35m0"
 	echo -e "\033[0m==============================="
 	echo -e "\033[0;37m ________"
 	echo -e "\033[0;37m/\033[0;36m____\033[0;37m...|_"
@@ -111,9 +128,12 @@ else
 	echo "PIX HELP"
 	echo "==============================="
 	echo "pix install - install package"
+	echo "pix update - update pix"
+	echo "pix reinstall - install package"
 	echo "pix remove - remove package"
 	echo "pix run - run package"
 	echo "pix version - show pix version"
+	echo "pix about - about pix"
 	echo "pix help - show help"
 	echo -e "\033[0m==============================="
 	echo -e "\033[0;35m ________"
@@ -122,6 +142,4 @@ else
 	echo -e "\033[0;35m|.......|_"
 	echo "|__|.|__|"
 	echo -e "\033[0m==============================="
-fi
-	echo "Unknown argument. For help u can type 'help'!"
 fi
