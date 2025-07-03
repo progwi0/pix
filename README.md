@@ -1,20 +1,18 @@
-### pix
+# Pix
+Sussy pm.
 
-Introducing our new package manager... Pix!
+Pix - PM, which can run on every Linux PC!
 
-Features of our package manager:
+## 🤷 Why Pix?
+1. This PM is sus.
+2. Pix can run on every PC.
+3. It's not written in Python.
 
-## Simplicity
-Our package manager is very easy to use! 
-Example: pix install popsicle-gtk
+## 🛞 Dependencies!
+For run Pix (from source or nah) you need:
+- Linux or WSL.
+- Terminal.
 
-## Easy installation
-Our package manager is not only easy to use, it's also easy to install! All you need to do is download "pix-install.sh", run it - and you're done!
+## 💿 Installation!
 
-## Our package manager is open-source!
-Our package manager is open-source, so you don't have to worry about your computer!
-
-## Our package manager works on any Linux distribution!
-Our package manager will work on any Linux distribution, and it doesn't matter whether you have Arch or Debian. Our package manager will work anyway!
-
-I hope these features have convinced you to use our package manager!
+You can download Pix from [releases](https://github.com/progwi0/pix/releases)
