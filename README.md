@@ -1,7 +1,7 @@
-# Pix
-Sussy pm.
+# 🧑‍🚀 Pix
+🧑‍🚀 Sussy pm.
 
-Pix - PM, which can run on every Linux PC!
+🧑‍🚀 Pix - PM, which can run on every Linux PC!
 
 ## 🤷 Why Pix?
 1. This PM is sus.
