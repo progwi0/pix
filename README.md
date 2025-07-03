@@ -1,5 +1,5 @@
 # 🧑‍🚀 Pix
-🧑‍🚀 Sussy pm.
+🧑‍🚀 Very sussy.
 
 Pix - PM, which can run on every Linux PC!
 
